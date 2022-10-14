@@ -1,2 +1,2 @@
 # Qunit
-Testing Qunit the powerful, easy-to-use JavaScript testing framework.
+Testing QUnit the powerful, easy-to-use JavaScript testing framework.
