@@ -20,8 +20,15 @@
     });
 
     function subtract(a,b){
+      return a - b;
       
     }
+
+    QUnit.module('Subtracting', function() {
+      QUnit.test('TwoNumbers', function(assert) {
+        assert.equal(subtract(3, 2), 1);
+      });
+    });
   </script>
   
 </body>
