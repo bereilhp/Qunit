@@ -40,6 +40,16 @@
       });
     });
 
+    function helloWorld() {
+      return "Hello world!";
+    }
+
+    //console.log(helloWorld());
+    QUnit.module('HelloWorld', function() {
+      QUnit.test('Print Hello World!',function(assert) {  
+        assert.equal(helloWorld(), "Hello world!");
+      });
+    });
       
   </script>
   
