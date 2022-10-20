@@ -4,54 +4,11 @@
 <title>Test Suite</title>
 <link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-2.19.1.css">
 <body>
+  
   <div id="qunit"></div>
   <div id="qunit-fixture"></div>
   <script src="https://code.jquery.com/qunit/qunit-2.19.1.js"></script>
-  
-  <script>
-    function add(a, b) {
-      return a + b;
-    }
-  
-    QUnit.module('Adding', function() {
-      QUnit.test('TwoNumbers', function(assert) {
-        assert.equal(add(1, 2), 3);
-      });
-    });
-
-    function subtract(a,b){
-      return a - b;
-      
-    }
-
-    QUnit.module('Subtracting', function() {
-      QUnit.test('TwoNumbers', function(assert) {
-        assert.equal(subtract(3, 2), 1);
-      });
-    });
-
-    function multiply(a,b){
-      return a * b;
-    }
-
-    QUnit.module('Multiply', function() {
-      QUnit.test('TwoNumbers', function(assert) {
-        assert.equal(multiply(3, 2), 6);
-      });
-    });
-
-    function helloWorld() {
-      return "Hello world!";
-    }
-
-    //console.log(helloWorld());
-    QUnit.module('HelloWorld', function() {
-      QUnit.test('Print Hello World!',function(assert) {  
-        assert.equal(helloWorld(), "Hello world!");
-      });
-    });
-      
-  </script>
+  <script src="./tests.js"></script>
   
 </body>
 <html>
