@@ -2,6 +2,6 @@ test:
 	@open test.html 
 
 commit:
-	git add * 
-	git commit 
-	git push
+	@git add * 
+	@git commit 
+	@git push
